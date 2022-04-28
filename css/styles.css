@@ -1,0 +1,271 @@
+:root{
+    --primary-color:#757575;
+    --secondory-color:#212121;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --background-color:##E5E5E5;
+
+}
+
+/* BODY */
+body{
+font-family: 'Roboto',sans-serif;
+font-weight: 400;
+background-color:var(--background-color);
+font-style: normal;
+text-decoration: none;
+color: var(--white-color);
+padding: 15px;
+margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid red;
+}
+button{
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link-active {
+    color: var(--accent-color)
+}
+.header-address-link:hover,:focus{
+    color: var(--accent-color);
+}
+
+/* убирает маркеры */
+li{
+    list-style: none;
+}
+.link-active{
+    color: var(--accent-color);
+}
+.link,.link-active{
+    color: inherit;
+}
+/* header */
+.nav{
+    display: inline-block;
+}
+.nav-list{
+    
+}
+.page-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    
+}
+.logo-black {
+    color: var(--secondory-color);
+}
+.page-footer{
+    color: var(--white-color);
+}
+
+.page-header{
+    color: var(--secondory-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    list-style: none;
+    background-color: var(--white-color);  
+ }
+
+
+.header-address-link{
+    color: var(--primary-color);    
+}
+
+/* SOLUTIONS */
+.solutions-section{
+    background-color: #2F303A;
+}
+.solution-text{
+    font-weight: 900;
+    color: var(--white-color);
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.solutions-section button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+/* визуално прячет заголовок */
+.features{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+/* FEATURES */
+.features{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: (var(--secondory-color));
+    text-align: center;   
+}
+/* ACTIVITY */
+.activity{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondory-color);
+}
+
+/* TEAM */
+.team .member-pos{
+    text-align: center;
+    background-color: #F5F4FA;
+}
+.member-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--secondory-color);
+}
+.member-pos{
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+/* FOOTER */
+.page-footer{
+    background-color: #2F303A;
+}
+.page-footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.footer-whitelogo{
+    color: var(--white-color);
+}
+.footer-map-link{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.footer-address-link{
+    font-size: 14px;
+    line-height: 1.7;
+    color:rgba(255, 255, 255, 0.6);
+}
+.footer-address-link:hover,
+.footer-address-link:focus{
+    color: var(--accent-color);
+}
+.footer-map-link:hover,
+.footer-map-link:focus{
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+/* PORTFOLIO */
+/* визуално прячет заголовок */
+.worklist{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondory-color);
+    background: #F5F4FA;
+    text-align: center;
+    
+}
+
+.button:hover,
+.button:focus {
+    background: var(--accent-color);
+    color: var(--white-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondory-color);
+}
+
+.title-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
