@@ -192,9 +192,8 @@ header .container
     border-radius: 4px;
     padding: 10px 32px;
  
-
-
 }
+
 
 /* визуално прячет заголовок */
 .features {
@@ -220,7 +219,15 @@ header .container
     color: (var(--secondory-color));
     text-align: center;
 }
-
+.features-title{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+}
 h3 {
     color: var(--secondory-color);
 }
@@ -377,6 +384,7 @@ h3 {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-decoration: none;
 }
 .page-footer .container{
     display: flex;
