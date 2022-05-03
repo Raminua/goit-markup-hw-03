@@ -22,71 +22,67 @@
     <!-- Header -->
 
     <header class="page-header">
-      <div class="container">
-        <nav class="nav">
+      <nav>
+        <div class="container">
           <a class="page-logo" href="./index.html"
             >Web<span class="logo-black">Studio</span>
           </a>
-          <ul>
-            <li class="nav-list">
-              <a class="link-active" href="./index.html">Студия</a>
-            </li>
-            <li class="nav-list">
-              <a class="link" href="/portfolio.html">Портфолио</a>
-            </li>
-            <li class="nav-list"><a class="link" href="">Контакты</a></li>
+          <ul class="site-nav">
+            <li><a class="link-active" href="./index.html">Студия</a></li>
+            <li><a class="link" href="/portfolio.html">Портфолио</a></li>
+            <li><a class="link" href="">Контакты</a></li>
           </ul>
-        </nav>
-      </div>
-      <ul>
-        <li>
-          <a class="header-address-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-address-link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+          <ul class="contact">
+            <li>
+              <a class="header-address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header-address-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-      <div class="container">
-        <section class="solutions-section">
-          <!-- Решения бизнеса -->
-          <h1 class="solution-text">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button">Заказать услугу</button>
-        </section>
-      </div>
+      <!-- <div class="container"> -->
+      <section class="solutions-section">
+        <!-- Решения бизнеса -->
+        <h1 class="solution-text">Эффективные решения для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
+      </section>
+      <!-- </div> -->
       <!-- Особенности -->
-      <section>
-        <div class="container">
+      <div class="container">
+        <section class="features-section">
           <h2 class="features">Особенности</h2>
-          <ul>
-            <li>
+          <ul class="features-set">
+            <li class="features-list">
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="title-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="features-list">
               <h3 class="features-title">Пунктуальность</h3>
               <p class="title-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="features-list">
               <h3 class="features-title">Планирование</h3>
               <p class="title-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="features-list">
               <h3 class="features-title">Современные технологии</h3>
               <p class="title-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -94,10 +90,11 @@
               </p>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- Деятельность -->
-      <section>
+
+      <section class="activity-section">
         <div class="container">
           <h2 class="activity">Чем мы занимаемся</h2>
           <ul class="activity-img">
@@ -113,27 +110,48 @@
       </section>
 
       <!-- Команда -->
+
       <section class="team-section">
         <div class="container">
           <h2 class="team">Наша Команда</h2>
           <ul class="team-members">
-            <li>
-              <img src="./images/igor.jpg" alt="Игорь" width="270" />
+            <li class="test1">
+              <img
+                class="photo-t"
+                src="./images/igor.jpg"
+                alt="Игорь"
+                width="270"
+              />
               <h3 class="member-name">Игорь Демьяненко</h3>
               <p class="member-pos">Product Designer</p>
             </li>
-            <li>
-              <img src="./images/olga.jpg" alt="Ольга" width="270" />
+            <li class="test1">
+              <img
+                class="photo-t"
+                src="./images/olga.jpg"
+                alt="Ольга"
+                width="270"
+              />
               <h3 class="member-name">Ольга Репина</h3>
               <p class="member-pos">Frontend Developer</p>
             </li>
-            <li>
-              <img src="./images/kolya.jpg" alt="Николай" width="270" />
+            <li class="test1">
+              <img
+                class="photo-t"
+                src="./images/kolya.jpg"
+                alt="Николай"
+                width="270"
+              />
               <h3 class="member-name">Николай Тарасов</h3>
               <p class="member-pos">Marketing</p>
             </li>
-            <li>
-              <img src="./images//misha.jpg" alt="Михаил" width="270" />
+            <li class="test1">
+              <img
+                class="photo-t"
+                src="./images//misha.jpg"
+                alt="Михаил"
+                width="270"
+              />
               <h3 class="member-name">Михаил Ермаков</h3>
               <p class="member-pos">UI Designer</p>
             </li>
@@ -142,13 +160,14 @@
       </section>
     </main>
     <!-- Футер -->
+
     <footer class="page-footer">
       <div class="container">
         <a href="./index.html" class="page-footer-logo"
           >Web<span class="footer-whitelogo">Studio</span></a
         >
-        <address>
-          <ul>
+        <address class="address-footer">
+          <ul class="footer-block">
             <li>
               <a class="footer-map-link" href="https://bit.ly/3pXMvUd"
                 >г. Киев, пр-т Леси Украинки, 26</a
