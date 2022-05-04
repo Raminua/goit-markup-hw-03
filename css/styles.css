@@ -34,7 +34,7 @@ button {
 }
 
 section {
-    padding: 94px;
+    /* padding: 94px; */
 }
 
 .container {
@@ -79,21 +79,21 @@ li {
 }
 
 /* header */
+header{
+    border-bottom: 1px solid #ECECEC;
+}
 header .container
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 10px;
-  
 }
+
 .site-nav {
     display: flex;
     margin: 0;
     padding: 0;
 }
-
 .site-nav li {
     margin-left: 50px;
 }
@@ -140,6 +140,8 @@ header .container
     letter-spacing: 0.02em;
     list-style: none;
     background-color: var(--white-color);
+    padding-top: 25px;
+    padding-bottom: 24px;
 }
 
 
@@ -241,7 +243,7 @@ h3 {
     width: 270px;
 }
 .features-set li+li{
-    margin-left:30px;
+    margin-left: 30px;
 
 }
 .features-set {
@@ -252,13 +254,8 @@ h3 {
 }
 
 .features-list {
-    padding: 10px;
-    /* Задаём всем элементам маржины слева и сверху */
-    /* margin-left: auto; */
     margin-top: 100px;
-    /*  Задаём ширину элементов  */
-    flex-basis: calc((100% - 30px) / 4);
-
+    /* flex-basis: calc((100%-90px) /4); */
 }
 
 .features-list h2 {
@@ -269,7 +266,7 @@ h3 {
 .features-list p {
     margin: 0;
 }
-.title-text{
+.featurestitle-text{
     width: 270px;
     height: 75px;
     color: var(--primary-color);
@@ -284,6 +281,7 @@ h3 {
 .activity-section{
     display: flex;
     padding-bottom: 94px;
+    padding-top: 94px;
    
 }
 .activity {
@@ -313,6 +311,9 @@ h3 {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
        
 }
 .team{
@@ -359,7 +360,6 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-    display: flex;
     margin: 0;
     padding: 0 32px;
     justify-content: space-between;
@@ -378,7 +378,10 @@ h3 {
     letter-spacing: 0.03em;
     color: var(--primary-color);
 }
-
+.name-pos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* FOOTER */
 .page-footer {
     background-color: #2F303A;
@@ -386,10 +389,7 @@ h3 {
     padding-bottom: 60px;
     text-decoration: none;
 }
-.page-footer .container{
-    display: flex;
-    align-items: baseline;
-}
+
 .page-footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -459,12 +459,18 @@ h3 {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.worklist-sect{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .button-panel {
     display: flex;
     justify-content: center;
     margin-top: 0;
     margin-bottom: 50px;
     padding-left: 0;
+    /* padding-top: 94px; */
+    /* padding-bottom: 35px; */
 }
 
 .button-panel li+li {
