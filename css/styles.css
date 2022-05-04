@@ -237,7 +237,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding-top: 100px;
 }
 .features-set li{
     width: 270px;
@@ -253,10 +253,6 @@ h3 {
     justify-content: space-between;
 }
 
-.features-list {
-    margin-top: 100px;
-    /* flex-basis: calc((100%-90px) /4); */
-}
 
 .features-list h2 {
     margin-top: 0;
@@ -380,7 +376,7 @@ h3 {
 }
 .name-pos{
     padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 /* FOOTER */
 .page-footer {
@@ -414,8 +410,11 @@ h3 {
     margin: 0;
     padding: 0;
 }
-.footer-block li{
+.footer-block li {
     margin-bottom: 9px;
+}
+.footer-block li:last-child{
+    margin-bottom: 0;
 }
 .footer-whitelogo {
     color: var(--white-color);
